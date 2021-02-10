@@ -1,5 +1,10 @@
 // Copyright The Closure Library Authors.
 // SPDX-License-Identifier: Apache-2.0
+
+// This file has been auto-generated, please do not edit.
+// To regenerate, run `npm run gen_alltests_js` in the root directory of the
+// Closure Library git repository.
+
 var _allTests = [
   'closure/goog/a11y/aria/announcer_test.html',
   'closure/goog/a11y/aria/aria_test.html',
@@ -17,6 +22,7 @@ var _allTests = [
   'closure/goog/async/run_test.html',
   'closure/goog/async/throttle_test.html',
   'closure/goog/async/workqueue_test.html',
+  'closure/goog/base_debug_loader_test.html',
   'closure/goog/base_module_test.html',
   'closure/goog/base_test.html',
   'closure/goog/collections/iters_test.html',
@@ -50,6 +56,7 @@ var _allTests = [
   'closure/goog/date/duration_test.html',
   'closure/goog/date/relative_test.html',
   'closure/goog/date/utcdatetime_test.html',
+  'closure/goog/db/db_test.html',
   'closure/goog/debug/console_test.html',
   'closure/goog/debug/debug_test.html',
   'closure/goog/debug/debugwindow_test.html',
@@ -69,6 +76,9 @@ var _allTests = [
   'closure/goog/defineclass_test.html',
   'closure/goog/delegate/delegateregistry_test.html',
   'closure/goog/delegate/delegates_test.html',
+  'closure/goog/demos/editor/helloworld_test.html',
+  'closure/goog/demos/editor/helloworlddialog_test.html',
+  'closure/goog/demos/editor/helloworlddialogplugin_test.html',
   'closure/goog/disposable/disposable_test.html',
   'closure/goog/dom/abstractrange_test.html',
   'closure/goog/dom/animationframe/animationframe_test.html',
@@ -110,6 +120,7 @@ var _allTests = [
   'closure/goog/dom/vendor_test.html',
   'closure/goog/dom/viewportsizemonitor_test.html',
   'closure/goog/dom/xml_test.html',
+  'closure/goog/editor/browserfeature_test.html',
   'closure/goog/editor/clicktoeditwrapper_test.html',
   'closure/goog/editor/contenteditablefield_test.html',
   'closure/goog/editor/field_test.html',
@@ -321,9 +332,6 @@ var _allTests = [
   'closure/goog/messaging/portnetwork_test.html',
   'closure/goog/messaging/portoperator_test.html',
   'closure/goog/messaging/respondingchannel_test.html',
-  'closure/goog/mochikit/async/deferred_async_test.html',
-  'closure/goog/mochikit/async/deferred_test.html',
-  'closure/goog/mochikit/async/deferredlist_test.html',
   'closure/goog/module/moduleinfo_test.html',
   'closure/goog/module/moduleloadcallback_test.html',
   'closure/goog/module/moduleloader_test.html',
@@ -356,6 +364,7 @@ var _allTests = [
   'closure/goog/net/xhrio_test.html',
   'closure/goog/net/xhriopool_test.html',
   'closure/goog/net/xhrmanager_test.html',
+  'closure/goog/net/xpc/crosspagechannel_test.html',
   'closure/goog/net/xpc/directtransport_test.html',
   'closure/goog/net/xpc/nativemessagingtransport_test.html',
   'closure/goog/object/object_test.html',
@@ -497,6 +506,7 @@ var _allTests = [
   'closure/goog/ui/ac/remotearraymatcher_test.html',
   'closure/goog/ui/ac/renderer_test.html',
   'closure/goog/ui/ac/richremotearraymatcher_test.html',
+  'closure/goog/ui/activitymonitor_test.html',
   'closure/goog/ui/advancedtooltip_test.html',
   'closure/goog/ui/animatedzippy_test.html',
   'closure/goog/ui/bidiinput_test.html',
@@ -519,13 +529,17 @@ var _allTests = [
   'closure/goog/ui/customcolorpalette_test.html',
   'closure/goog/ui/datepicker_test.html',
   'closure/goog/ui/decorate_test.html',
+  'closure/goog/ui/dialog_test.html',
   'closure/goog/ui/dimensionpicker_test.html',
   'closure/goog/ui/dimensionpickerrenderer_test.html',
   'closure/goog/ui/drilldownrow_test.html',
   'closure/goog/ui/editor/abstractdialog_test.html',
+  'closure/goog/ui/editor/bubble_test.html',
   'closure/goog/ui/editor/linkdialog_test.html',
   'closure/goog/ui/editor/toolbarfactory_test.html',
   'closure/goog/ui/emoji/emojipicker_test.html',
+  'closure/goog/ui/emoji/fast_nonprogressive_emojipicker_test.html',
+  'closure/goog/ui/emoji/fast_progressive_emojipicker_test.html',
   'closure/goog/ui/emoji/popupemojipicker_test.html',
   'closure/goog/ui/emoji/spriteinfo_test.html',
   'closure/goog/ui/filteredmenu_test.html',
@@ -537,6 +551,7 @@ var _allTests = [
   'closure/goog/ui/iframemask_test.html',
   'closure/goog/ui/inputdatepicker_test.html',
   'closure/goog/ui/keyboardshortcuthandler_test.html',
+  'closure/goog/ui/labelinput_test.html',
   'closure/goog/ui/map_test.html',
   'closure/goog/ui/media/flashobject_test.html',
   'closure/goog/ui/media/flickr_test.html',
@@ -549,6 +564,7 @@ var _allTests = [
   'closure/goog/ui/media/vimeo_test.html',
   'closure/goog/ui/media/youtube_test.html',
   'closure/goog/ui/menu_test.html',
+  'closure/goog/ui/menubutton_test.html',
   'closure/goog/ui/menubuttonrenderer_test.html',
   'closure/goog/ui/menuitem_test.html',
   'closure/goog/ui/menuitemrenderer_test.html',
@@ -591,6 +607,7 @@ var _allTests = [
   'closure/goog/ui/toolbar_test.html',
   'closure/goog/ui/toolbarcolormenubuttonrenderer_test.html',
   'closure/goog/ui/toolbarseparatorrenderer_test.html',
+  'closure/goog/ui/tooltip_test.html',
   'closure/goog/ui/tree/basenode_test.html',
   'closure/goog/ui/tree/treecontrol_test.html',
   'closure/goog/ui/tree/typeahead_test.html',
@@ -625,6 +642,10 @@ var _allTests = [
   'closure/goog/vec/vec4_test.html',
   'closure/goog/vec/vec4d_test.html',
   'closure/goog/vec/vec4f_test.html',
+  'closure/goog/window/window_test.html',
+  'third_party/closure/goog/mochikit/async/deferred_async_test.html',
+  'third_party/closure/goog/mochikit/async/deferred_test.html',
+  'third_party/closure/goog/mochikit/async/deferredlist_test.html',
 ];
 
 // If we're running in a nodejs context, export tests. Used when running tests
